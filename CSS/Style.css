@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}
+.box2{
+    background-color: red;
+    width: 50px;
+    height: 150px;
+}
+.box3{
+    background-color: blue;
+    width: 100px;
+    height: 120px;
+}
+.container{
+    display: flex;
+}
+.canhphai{
+    justify-content: flex-end;
+}
+.canhdeu{
+    justify-content: space-between;
+}
+.eptrai{
+    margin-left: 20px;
+}
